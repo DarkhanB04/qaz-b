@@ -2,7 +2,7 @@ import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "postgresql://postgres:RCiigvdJZYLECNiDbcBXwWodatGCNSFA@roundhouse.proxy.rlwy.net:43532/railway"
+    DATABASE_URL: str = "postgresql://userdb:1k18MnsC6iV4ApTjE7hJfGus97MIzaHf@dpg-ctvv89popnds73duv4rg-a.oregon-postgres.render.com/elearndb_75qa"
     SECRET_KEY: str = "supersecretkey"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_HOURS: int = 24
