@@ -11,5 +11,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         extra = "allow"
+        populate_by_name = True  # Replaces `allow_population_by_field_name`
+        from_attributes = True
 
 settings = Settings()
