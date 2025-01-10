@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://qazaqai-dxp00wowf-darkhans-projects-e924bb69.vercel.app"],  # Allow your frontend's origin
+    allow_origins=["https://qazaqai.vercel.app"],  # Allow your frontend's origin
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
